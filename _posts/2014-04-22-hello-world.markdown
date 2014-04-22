@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello, world!"
 date:   2014-04-22 15:47:00
-categories: blog
+tags: blog personal
 ---	
 
 TL;DR
