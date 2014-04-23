@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Yii2: my pull request has been accepted"
-date:   2014-04-22 16:44:00
+date:   2014-04-23 11:24:00
 tags: yii2 opensource github free-software
 ---	
 
