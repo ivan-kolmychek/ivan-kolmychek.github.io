@@ -14,12 +14,10 @@ title: Tags
 {% assign sortedtags = tags | split:' ' | sort %}
 
 {% for tag in sortedtags %}
-  <h3 id="{{ tag }}"><a href="#{{ tag }}">{{ tag }}</a></h3>
-  <ul>
+  <h2 id="{{ tag }}"><a href="#{{ tag }}">#</a> {{ tag }}</h2>
+  <ul class="posts">
   {% for post in site.tags[tag] %}
-    <li>
-      {% include postlistitem.html %}
-    </li>
+    <li>{% include postlistitem.html %}
   {% endfor %}
   </ul>
 {% endfor %}
