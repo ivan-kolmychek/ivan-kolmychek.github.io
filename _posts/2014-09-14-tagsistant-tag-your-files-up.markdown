@@ -7,7 +7,7 @@ tags: tagsistant fuse linux filesystems tags
 
 I've recently was contacted by cool guy [Tx0](http://tagsistant.net/contacts), who is concerned about a crisis out here. It's very nice of him and I was very glad he is OK, but post is not about our communication. =)
 
-So, he reminded me about his [awesome project called Tagsistant](http://tagsistant.net), which aims to provide a full-scale compatible tag-oriented filesystem. I've been very busy for a while, so, I've almost forgot about it.
+So, he reminded me about his [awesome project called __Tagsistant__](http://tagsistant.net), which aims to provide a full-scale compatible tag-oriented filesystem. I've been very busy for a while, so, I've almost forgot about it.
 
 It's based on FUSE, so, you can run it above any filesystem you currently use, creating some maintainable tag-oriented fs harbor. You should definely check it out. ;)
 
