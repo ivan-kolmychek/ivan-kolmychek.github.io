@@ -12,7 +12,7 @@ be messed up a little bit. Or alot - it depends on your layout.
 
 Also, it uses regex internally to parse HTML. It is a horrible way of getting that job done. [You definely don't want to do this](http://stackoverflow.com/a/1732454/2468200).
 
-Fortunately, in Rails 5 [there will be cool new sanitizers](https://github.com/rails/rails-html-sanitizer), based on awesome [Loofah gem](https://github.com/flavorjones/loofah), which is based on famous [Nokogiri XML parser](http://nokogiri.org/) gem, which is based... You get the point - there is alot of very cool things to bring you enough power to clean up HTML. ;)
+Fortunately, in Rails 5 [there will be cool new sanitizers](https://github.com/rails/rails-html-sanitizer), based on awesome [Loofah gem](https://github.com/flavorjones/loofah), which is based on famous [Nokogiri XML parser](http://nokogiri.org/) gem, which is based... OK, I think, you get the point - there is alot of very cool things to bring you enough power to clean up HTML. ;)
 
 You can put it into your project right now, or you can add just Loofah and use custom scrubber instead - it's still nice to know, how to write them, because you may need to implement very uncommon scrubbing logic.
 
