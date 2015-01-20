@@ -1,3 +1,5 @@
 name: Ivan Kolmychek's blog
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+exclude:
+  - 'vendor'
