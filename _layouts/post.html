@@ -1,5 +1,6 @@
 ---
 layout: default
+disqus: true
 ---
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
@@ -7,4 +8,11 @@ layout: default
 
 <div class="post">
 {{ content }}
+</div>
+
+<div class="comments">
+  <div id="disqus_thread"></div>
+  <p>Comments above are <a href="https://disqus.com/?ref_noscript" rel="nofollow">powered by Disqus.</a></p>
+  <p>If you don't see them, make sure you have JavaScript enabled and the requests to Disqus are allowed.</p>
+  <p>You can read more about this decision <a href="/about/#disqus">here</a></p>
 </div>
