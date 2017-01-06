@@ -1,0 +1,20 @@
+FROM ruby:2.3
+
+# JS runtime (nodejs)
+RUN apt-get update \
+  && apt-get install -y nodejs --no-install-recommends \
+  && rm -rf /var/lib/apt/lists/*
+
+ENV APP_HOME="/app"
+ENV BUNDLE_PATH="/app/vendor/bundle"
+
+RUN mkdir -p $APP_HOME
+WORKDIR $APP_HOME
+
+EXPOSE 3000
+
+# Get some non-root user to run from
+RUN useradd -m -u 1000 user
+USER user
+
+CMD /bin/bash
