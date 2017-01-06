@@ -2,3 +2,6 @@ name: Ivan Kolmychek's blog
 highlighter: pygments
 exclude:
   - 'vendor'
+  - 'Dockerfile-dev'
+  - 'docker-compose.yml'
+  - '.git'
