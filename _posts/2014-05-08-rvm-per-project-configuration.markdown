@@ -32,12 +32,12 @@ I like the .ruby-version approach more, so, I use it.
     ~/src/ivan-kolmychek.github.io $ rvm --ruby-version use 2.1@jekyll
     ~/src/ivan-kolmychek.github.io $ gem install jekyll
     ...
-    
+
 And, after that, whenever I `cd` into any of that folders...
 
     ~ $ rvm gemset name
     /home/<username>/.rvm/gems/ruby-2.1.1
-    ~ $ cd ~/src/rails-blog-test                    
+    ~ $ cd ~/src/rails-blog-test
     ~/src/rails-blog-test $ rvm gemset name
     rails-test
     ~/src/rails-blog-test $ cd ../ivan-kolmychek.github.io/
@@ -54,14 +54,14 @@ Side note
 ---------
 
 In ArchLinux, rvm complains about `--user-install` in `/etc/gemrc`.
-I've just disabled it. 
+I've just disabled it.
 
 __Note__: do not comment whole line out, just remove option.
 
 Before:
 
     gem: --user-install
-    
+
 After:
 
     gem:

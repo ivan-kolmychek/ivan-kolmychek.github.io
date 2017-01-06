@@ -3,9 +3,9 @@ layout: post
 title:  "Yii2: my pull request has been accepted"
 date:   2014-04-23 11:24:00
 tags: yii2 opensource github free-software
----	
+---
 
-Guys from Yii2 project team have merged my [pull request][pull-request-3164] that resolves issue I've [noted before][issue-3154]. 
+Guys from Yii2 project team have merged my [pull request][pull-request-3164] that resolves issue I've [noted before][issue-3154].
 
 So, that's officialy my first accepted contribution to opensource project on Github. There was minor bugfixing in [Tagsistant][tagsistant-site] before, but that was too minor to be a contibution, I think.
 

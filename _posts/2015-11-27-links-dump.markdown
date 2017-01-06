@@ -6,18 +6,18 @@ tags: links remote-working ascii screensaver redis javascript noscript ruby-obje
 ---
 
 I've got a lot of interesting (for me) links piled up in the browser, so,
-I've decided to post them here. 
+I've decided to post them here.
 
 Maybe you'll find something interesting for you too. ;)
 
 ## Disclaimer
-I don't always agree with the content I'm linking to. 
-It can have numerous flaws: it can be opinionated, obvious to someone, etc. etc. 
+I don't always agree with the content I'm linking to.
+It can have numerous flaws: it can be opinionated, obvious to someone, etc. etc.
 But I find it interesting and, maybe, thought-provoking.
 
 # How Do Ruby/Rails Developers Keep Updated on Security Alerts?
 
-A [short article][gavinmiller-security] about `bundler-audit`. 
+A [short article][gavinmiller-security] about `bundler-audit`.
 
 # ASCII Screensaver
 
@@ -35,8 +35,8 @@ The [official documentation][redis-data-types] explains a lot about data types a
 # Understanding Transducers and The End Of Dynamic Languages
 
 [Here][understanding-transducers] is a post by Elben Shira which dives into the
-functional programming. Examples are in Clojure, but if you know JavaScript, you 
-can get to understand them better by looking at 
+functional programming. Examples are in Clojure, but if you know JavaScript, you
+can get to understand them better by looking at
 [Clojure examples compared to JavaScript][clojure-compared-to-js]
 
 There is another very interesting [post][the-end-of-dynamic-languages] with
@@ -58,30 +58,30 @@ Another [interesting post][kafka-for-ruby] about Kafka, Event Sourcing and Ruby.
 
 # A little rant about "JAVASCRIPT! ENABLE IT NOW! DO IT"
 
-One day I've got a post in the aggregator about using proc in the rails `asset_host` 
-to be able to generate a different url for each asset. 
+One day I've got a post in the aggregator about using proc in the rails `asset_host`
+to be able to generate a different url for each asset.
 
-But when I open link to that article in my browser with JavaScript turned off 
+But when I open link to that article in my browser with JavaScript turned off
 (I use `NoScript` in whitelisting mode) I get the "loader" anmation.
 
-What's weird is that I can see the content for a second before the "loading" 
-animation appears. Looking at the DOM shows that content is really loaded - you 
+What's weird is that I can see the content for a second before the "loading"
+animation appears. Looking at the DOM shows that content is really loaded - you
 can simply remove the loading element and read all of it without any trouble.
 
-So, the question is: why would they cover up their __already loaded__ content which 
+So, the question is: why would they cover up their __already loaded__ content which
 __does not require JavaScript__ with that nasty loader?
 
 [Everyone has the JavaScript, right?][everyone-has-js]
 
-Please, don't do that. 
+Please, don't do that.
 Consider [Progressive Enhancement][progressive-enhancement] instead.
 
-BTW, [here][cookieshq-demands-the-javascript] is a link to the article if you want 
+BTW, [here][cookieshq-demands-the-javascript] is a link to the article if you want
 to see what I'm talking about.
 
 # That's all
 
-Wow, that pile is less that I've though it is. 
+Wow, that pile is less that I've though it is.
 Ok, now I can begin to raise a new one. :)
 
 [gavinmiller-security]: http://gavinmiller.io/2015/staying-up-to-date-with-security-alerts/

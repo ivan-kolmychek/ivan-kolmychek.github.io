@@ -11,5 +11,5 @@ So, he reminded me about his [awesome project called __Tagsistant__](http://tags
 
 It's based on FUSE, so, you can run it above any filesystem you currently use, creating some maintainable tag-oriented fs harbor. You should definely check it out. ;)
 
-There was a 0.8 relatively-stable version released not long time ago, and it has alot of improvements. 
+There was a 0.8 relatively-stable version released not long time ago, and it has alot of improvements.
 Watching as this project evolves gives me hope, that some day I would be able to manage any amount of different files absolutely painlessly.

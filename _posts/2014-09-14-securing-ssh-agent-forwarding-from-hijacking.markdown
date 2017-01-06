@@ -5,7 +5,7 @@ date:   2014-09-14 00:54
 tags: linux ssh ssh-agent ssh-forwarding security vagrant
 ---
 
-I use [ssh-agent forwadring](https://developer.github.com/guides/using-ssh-agent-forwarding/) alot, 
+I use [ssh-agent forwadring](https://developer.github.com/guides/using-ssh-agent-forwarding/) alot,
 because it's a very convinient and simple way to securely use my ssh keys on remote hosts or inside [Vagrant](https://vagrantup.com) development.
 It frees me from creating a bunch of keys - at least one for every host I use.
 
@@ -23,14 +23,14 @@ You can just click `OK` to accept operation or `Cancel` to decline it.
 
 In case of declined operation, ssh-agent will not proceed with operation:
 
-    dfyz@victoria ~/src/ivan-kolmychek.github.io (ruby-2.1.2@jekyll) $ git pull
+    ivanko@victoria ~/src/ivan-kolmychek.github.io (ruby-2.1.2@jekyll) $ git pull
     Agent admitted failure to sign using the key.
     Permission denied (publickey).
     fatal: Could not read from remote repository.
 
     Please make sure you have the correct access rights
     and the repository exists.
-    dfyz@victoria ~/src/ivan-kolmychek.github.io (ruby-2.1.2@jekyll) $
+    ivanko@victoria ~/src/ivan-kolmychek.github.io (ruby-2.1.2@jekyll) $
 
 For further details, see `man ssh-agent`.
 

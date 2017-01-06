@@ -7,14 +7,14 @@ tags: workspace byobu rvm tmux rbenv ruby
 
 ## tmux vs byobu
 
-Byobu started to behave glitchy (again) after I had updated my system 
+Byobu started to behave glitchy (again) after I had updated my system
 yesterday - this is not the first time and I was not very satisfied with
-it lately, - so, I looked up for a better way. 
+it lately, - so, I looked up for a better way.
 
 It turns out, that I didn't use most of the byobu's tuning anyway and
 what I did could be easily replicated in the plain tmux config.
 
-I was more surprised with first point - after all, byobu does it's tuning by the standard tmux features. I did not expect to get everything I need with really simple and minimalistic config file. 
+I was more surprised with first point - after all, byobu does it's tuning by the standard tmux features. I did not expect to get everything I need with really simple and minimalistic config file.
 
 I guess that's because I chose byobu long time ago for it's widgets which were very useful for "text mode" work on the very low-performance (1 core, 0.7 GHz and 1.6 GHz later) when I did most of the stuff in the console with CLI utils, so, I really liked the status widgets it provided. It was useful for me for a long time; became an important part of my toolchain; survived a lot of software and hardware changes and, actually, made me to discover tmux at the first place. All this time I did not look into the byobu's internals, except for the migration from screen it used when I first adopted it, to tmux. It was glitchy, I understood that it's just a build over a screen (or tmux later), but it was just good enough.
 
@@ -24,7 +24,7 @@ This whole situation reminds me of...
 
 ## rbenv vs rvm
 
-The similar situation happened with RVM and rbenv. 
+The similar situation happened with RVM and rbenv.
 
 When I'd re-discovered ruby for myself, I used RVM to install ruby and isolate projects dependencies using the built-in gemsets feature.
 

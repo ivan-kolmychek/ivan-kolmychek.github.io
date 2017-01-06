@@ -3,7 +3,7 @@ layout: post
 title:  "Feed added"
 date:   2014-04-22 16:44:00
 tags: blog rss jekyll
----	
+---
 
 I've added a [feed][feed] to the blog. Thanks to [snaptortoise][snaptortoise] for [their jekyll-rss-feeds][jekyll-rss-feeds].
 

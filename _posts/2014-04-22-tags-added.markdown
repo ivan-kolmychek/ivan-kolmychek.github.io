@@ -3,7 +3,7 @@ layout: post
 title:  "Snag it, bag it, tag it!"
 date:   2014-04-22 22:24:00
 tags: blog jekyll tags
----	
+---
 
 Now there is a [tag list page][tags] - thanks to [christianspecht][christianspecht] for [his blog code][christianspecht-blog] from where I took the code.
 

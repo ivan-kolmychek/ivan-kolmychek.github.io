@@ -9,10 +9,10 @@ tags: twitter rss
 
 In 2012 Twitter [changed their API][techcurch-twitter-api-change], [making authentication a requirement and dropping the RSS support][mashable-twitter-rss], that was a just another (but still very major) reason not to use twitter for me.
 
-Yes, there are a lot of ways to still receive twits you're interested in by RSS - for instance, building your own app for that or using third-party services, - but I think they're hackish. 
+Yes, there are a lot of ways to still receive twits you're interested in by RSS - for instance, building your own app for that or using third-party services, - but I think they're hackish.
 I also think, I was more concerned about new policy at the time, which resulted in removing RSS - they were locking down their ecosystem significantly.
 
-Now the new CEO says that they're open to suggestions, you just have to twit them with "#helloworld" hashtag. There are a lot of suggestions already, [some of them][remove-token-limit-tweet] are good. 
+Now the new CEO says that they're open to suggestions, you just have to twit them with "#helloworld" hashtag. There are a lot of suggestions already, [some of them][remove-token-limit-tweet] are good.
 
 Anyway, [I've twitted about bringing back RSS support][bring-back-rss-feeds-tweet]. Let's see how it will go. =)
 
