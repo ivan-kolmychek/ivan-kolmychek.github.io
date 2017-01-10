@@ -1,5 +1,5 @@
 name: Ivan Kolmychek's blog
-highlighter: pygments
+highlighter: rouge
 exclude:
   - 'vendor'
   - 'Dockerfile-dev'
