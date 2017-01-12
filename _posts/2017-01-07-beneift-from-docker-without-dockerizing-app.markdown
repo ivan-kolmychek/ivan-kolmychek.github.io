@@ -60,7 +60,7 @@ and, official repos of Arch Linux, for instance, provide only 9.6.1.
 
 ## 0. Install docker and docker-compose (of course)
 
-[Here is the official guide](installing-docker-compose) for installing
+[Here is the official guide][installing-docker-compose] for installing
 docker-compose. It includes installing Docker.
 
 I use Arch Linux, so I just use the one provided in official repos:
@@ -104,14 +104,14 @@ it's better to create a new file decidated only to your own services.
 
 ## 2. Find an image for the service you want
 
-For this you will probably have to go to [Docker Hub](dockerhub) and search
+For this you will probably have to go to [Docker Hub][dockerhub] and search
 there.
 
 I prefer to use official images, but if you want to use something without
 an official image available, you probably can use something provided by other
 people you trust enough.
 
-I will use [official postgres image](dockerhub-postgres) for this example.
+I will use [official postgres image][dockerhub-postgres] for this example.
 
 ## 3. Add a service you need
 
@@ -144,10 +144,10 @@ in format `NAME=value`.
 * `ports:` - which ports share to the current machine and to what map them.
 Array of strings with format `host_ip:host_port:port_inside_container`.
 
-[Compose file reference](compose-file-reference) contains more options
+[Compose file reference][compose-file-reference] contains more options
 you can use to customize your service.
 
-Note, that you have [the whole 127.x.y.z/8 block of IPv4](loobpack-addresses)
+Note, that you have [the whole 127.x.y.z/8 block of IPv4][loobpack-addresses]
 addressess that all are bound to your "loopback" device and, basically, mean
 "the same computer". It's 16387064 addressess you can use if you want.
 And each of that addressess have ~65k TCP ports you can bind your services to. :)
@@ -205,11 +205,11 @@ the definitions in compose file.
 * `docker-compose run --rm postgres-9.2 /bin/bash` - to start bash terminal
 inside the container.
 
-[And more](compose-cli-reference).
+[And more][compose-cli-reference].
 
 # More examples
 
-[Here](github-services) is my repo with collection of services you can just
+[Here][github-services] is my repo with collection of services you can just
 clone and use. It haven't been updated for a while, but still can be used as an
 example.
 
@@ -219,7 +219,7 @@ to Github. Or you can make a pull-request for this repo that I have. :)
 
 # P.S.
 
-As always, I would be glad to get your [feedback](about-feedback) about this
+As always, I would be glad to get your [feedback][about-feedback] about this
 post.
 
 [github-services]: https://github.com/ivan-kolmychek/services
