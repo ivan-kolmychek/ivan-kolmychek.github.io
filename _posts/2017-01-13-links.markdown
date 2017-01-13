@@ -1,0 +1,119 @@
+---
+layout: post
+title: 'Links: Ruby and Rails tips, local variables, virtual memory and more'
+date: 2017-01-13 11:00:00
+tags: links code-style rails ruby hanami data-migrations rack brakeman security bundler-audit
+---
+
+Todays batch of links contains mostly Ruby and Rails-specific articles and four
+questions from StackExchange - one about programming, one about virtual memory,
+one about workplace and one about human psychology and numbers.
+
+# [Common Rails Idioms That Kill Database Performance][honeybadger-db-performance] by Honeybadger
+
+A pretty detailed article about finding database performance issues with
+PostgresQLs EXPLAIN.
+
+![dalek-explain-gif][dalek-explain-gif]
+
+By the way, the guys at Honeybadger do listen to the feedback, which is nice. :)
+
+# [Rails Security Essentials][everydayrails-security] by EveryDayRails
+
+Short post about why we should care about security in our apps and what
+can we do to make it a continious process.
+
+Security is always a moving target, so a reminder once in a while that it
+should be a continious process (instead of one-shot effort) is probably
+a good thing.
+
+Both suggested tools ([brakeman][brakeman] and [bundler-audit][bundler-audit])
+are also nice.
+
+# [How to write your own Rack middleware][redpanters-rack-middleware] by RedPanters
+
+Concise article about building Rack middleware. Nothing new for me, but
+may be a good link to share with someone who doesn't yet know how to do it.
+
+It also has a nice list of references and does acknowledge that it's a general
+pattern, not only a rack-specific stuff, which is also good, in my humble
+opinion.
+
+# [Data Migrations In Rails][thoughtbot-rails-data-migrations] by ThoughtBot
+
+A old but still good take on solving the problem that Rails doesn't provide way
+to make data-migrations "out of the box".
+
+And, speaking about data migrations...
+
+# [data-migrate by ilyakatz][data-migrate]
+
+A nice gem for making data-migrations and keeping them separated from the
+schema migrations.
+
+# [From Rails To Hanami: Models][codeminer-rails-to-hanami] by CodeMiner 42
+
+A first part in series of post describing Hanami/Lotus by comparing it to
+Rails, starting with models.
+
+I really hope Hanami will get much more traction, as in a lot of things
+right now I like its way of doing things more than what is suggested by Rails.
+
+# [How To Execute Rake Tasks More Than Once][solidfoundation-execute-rake-tasks-more-than-once]
+
+Very short tip from SolidFoundationWeb on how to execute rake tasks more than
+once from inside another rake task.
+
+# Stack Exchange questions:
+
+## [Should we eliminate local variables if we can?][se-local-variables] @ Software Engineering SE
+
+I've been a proponent of "readability over shortness" in code for a while now,
+and I really like top two (at the time of writing) answers:
+[1][se-local-variables-a1] and [2][se-local-variables-a2].
+
+## [How is virtual memory actually increasing the memory space?][se-virtual-memory] @ SuperUser SE
+
+An interesting question based on misunderstanding of the purposes/uses of virtual
+memory. The answers describe why is it used and that it's not increasing
+the actual physical memory at all.
+
+## [Would opting out of catered lunch be taken poorly?][se-catered-lunch] @ Workplace SE
+
+Answers suggest a good way to communicate what question author is intending
+without being harsh or perceived as "negative".
+
+In general, a lot of answers on Workplace do that. Apparently, sometimes even
+simple rephrasing the original thought alone may go a long way in establishing
+good communication. Who knew. :)
+
+## [Can you predict a number that is “randomly” chosen by a person better than chance?][se-predict-number] @ Skeptics SE
+
+An interesting question about probabilities, but, again, answers are much more
+interesting that the question itself, as they deal with the psychology, which
+can give insight into the human behavior. Our users are human, right?
+
+# That's all
+
+I hope you enjoy this bunch of links.
+
+If you have any feedback on this or any other post, I will be glad to
+[receive it][feedback] from you.
+
+[honeybadger-db-performance]: https://blog.honeybadger.io/common-rails-idioms-that-kill-database-performance
+[everydayrails-security]: https://everydayrails.com/2016/12/12/rails-security-essentials.html
+[redpanters-rack-middleware]: https://blog.redpanthers.co/rack-middleware/
+[thoughtbot-rails-data-migrations]: https://robots.thoughtbot.com/data-migrations-in-rails
+[data-migrate]: https://github.com/ilyakatz/data-migrate
+[codeminer-rails-to-hanami]: https://blog.codeminer42.com/from-rails-to-hanami-models-d1175d2d5b33
+[solidfoundation-execute-rake-tasks-more-than-once]: https://solidfoundationwebdev.com/blog/posts/how-to-execute-rake-tasks-more-than-once
+[se-local-variables]: https://softwareengineering.stackexchange.com/questions/339384/should-we-eliminate-local-variables-if-we-can
+[se-local-variables-a1]: http://softwareengineering.stackexchange.com/a/339389/196821
+[se-local-variables-a2]: http://softwareengineering.stackexchange.com/a/339427/196821
+[se-virtual-memory]: https://superuser.com/questions/1165420/how-is-virtual-memory-actually-increasing-the-memory-space
+[se-catered-lunch]: https://workplace.stackexchange.com/questions/82808/would-opting-out-of-catered-lunch-be-taken-poorly
+[se-predict-number]: https://skeptics.stackexchange.com/questions/36652/can-you-predict-a-number-that-is-randomly-chosen-by-a-person-better-than-chanc
+[dalek-explain-gif]: http://i.imgur.com/ACMFB9m.gif
+[bundler-audit]: https://github.com/rubysec/bundler-audit
+[brakeman]: https://github.com/presidentbeef/brakeman
+[feedback]: /about/#feedback
